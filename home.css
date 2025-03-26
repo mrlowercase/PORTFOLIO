@@ -36,6 +36,7 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
+            width: 100%;
         }
         
         .social-links a {
@@ -86,7 +87,8 @@
         .myFour {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 200px;
+            grid-template-rows: 200px 200px;
+            gap: 20px;
         }
 
         .box {
@@ -264,10 +266,12 @@
                     z-index: 1;
                 }
                 
+                
                 .hero-content1 {
                     position: relative;
                     z-index: 2;
-                    color: white;
+                    background: rgba(0, 0, 0, 0.5);
+               
                 }
                 
                 .hero-content1 h1 {
@@ -319,13 +323,14 @@
 
         .hero2 {
     position: relative;
-    background: url('dags.jpg') no-repeat center center/cover;
+    background: url('backend.png') no-repeat center center/cover;
     height: 120vh;
     align-items: center;
     justify-content: center;
     text-align: center;
     z-index: 1;
     align-items: center;
+    
             
         }
 
@@ -656,7 +661,8 @@
         
         .hero-content6 h1 {
     
-            font-size: 2rem;
+            font-size: 4rem;
+            font-weight: bold;
             color: #a68eff;
             
         }
@@ -748,10 +754,11 @@
 
         .social9-media {
             position: relative;
-            background: url('jinwo.jpg') no-repeat center center/cover;
+            background: url('back1m.jpeg') no-repeat center center/cover;
             padding: 50px 0;
             text-align: center;
             color: white;
+            object-fit: cover;
         }
         
         .social9-media::before {
@@ -770,3 +777,324 @@
             z-index: 2; 
         }
         
+
+
+        /**CLASSMATES//*/
+    
+        .h-box_about {
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about-sec-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.conBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.imgbox_about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pblue {
+    color: rgb(8, 124, 182);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pred {
+    font-size: 18px;
+    color: rgb(209, 89, 143);
+    line-height: 1.5;
+}
+
+.pabout {
+    font-size: 16px;
+    color: rgb(125, 126, 125);
+    line-height: 1.5;
+}
+
+.hero212 {
+    position: relative;
+    background: url('back2020.jpeg') no-repeat center center/cover;
+    height: 210vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero212 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero21-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.hero21-content h1 {
+    font-size: 3rem;
+    color: #a68eff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero21-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1300px;
+    color: white;
+}
+@media (max-width: 1024px) {
+    .about-sec-one {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-sec-one {
+        grid-template-columns: 1fr;
+    }
+
+    .hero212 {
+        height: 450vh;
+        background-size: cover;
+        object-fit: contain;
+        
+    }
+    .hero21-content p {
+    margin-bottom: 2650px;
+    
+}
+}
+
+  .social-media74 {
+                    position: relative;
+                    background: url('back2026.avif') no-repeat center center/cover;
+                    padding: 50px 0;
+                    text-align: center;
+                    color: white;
+                }
+                
+                .social-media74::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5); 
+                    z-index: 1;
+                }
+                
+                .social-media74 * {
+                    position: relative;
+                    z-index: 2; 
+                }
+                
+
+
+                    /**PROJECTS//*/
+    /* Hero Section */
+.hero218 {
+    position: relative;
+    background: url('back2020.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero218 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero29-content {
+    position: relative;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.hero29-content h1 {
+    font-size: 3rem;
+    color: #a68eff;
+    font-weight: bold;
+}
+
+.hero29-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: white;
+}
+
+/* About Section */
+.about-sec-one2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.conBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgbox_about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Make the Facebook link clickable */
+.imgbox_about a {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.imgbox_about a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure icon does not block clicks */
+.imgbox_about i {
+    pointer-events: none;
+}
+
+.pblue {
+    color: rgb(8, 124, 182);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pred {
+    font-size: 18px;
+    color: rgb(209, 89, 143);
+    line-height: 1.5;
+}
+
+.pabout {
+    font-size: 16px;
+    color: rgb(125, 126, 125);
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .about-sec-one2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero218 {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .hero29-content p {
+        margin-bottom: 20px;
+    }
+}
+
+/* Social Media Section */
+.social-media84 {
+    position: relative;
+    background: url('back2026.avif') no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.social-media84::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.social-media84 * {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.social-links30 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 37px;
+    background: #1877f2; 
+
+}
+
+.social-links30 a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-links30 a:hover {
+    transform: scale(1.2);
+    background: #145dbf;
+
+}
