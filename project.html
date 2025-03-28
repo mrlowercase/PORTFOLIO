@@ -84,7 +84,7 @@
                 <div class="conBox">
                     <div class="imgbox_about">
                         <img src="sungsss.png" alt="Jennifer Soft">
-                        <a href="https://www.figma.com/design/DGJXHlCaEXnfUQacFRw69H/Untitled">
+                        <a href="https://mrlowercase.github.io/developers/Home.html">
                             <i class="fa-brands fa-figma"></i> Fourth Project
                         </a>
                     </div>
@@ -116,6 +116,41 @@
     
 
     </main>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const projectBoxes = document.querySelectorAll(".conBox");
+
+            projectBoxes.forEach((box) => {
+                box.addEventListener("mouseenter", () => {
+                    createSparkles(box);
+                });
+
+                box.addEventListener("mouseleave", () => {
+                    removeSparkles(box);
+                });
+            });
+
+            function createSparkles(box) {
+                for (let i = 0; i < 10; i++) { // Creates 10 sparkles
+                    const sparkle = document.createElement("div");
+                    sparkle.classList.add("sparkle");
+                    sparkle.style.left = `${Math.random() * 100}%`;
+                    sparkle.style.top = `${Math.random() * 100}%`;
+                    box.appendChild(sparkle);
+
+                    setTimeout(() => {
+                        sparkle.remove();
+                    }, 800); // Remove after 0.8s
+                }
+            }
+
+            function removeSparkles(box) {
+                box.querySelectorAll(".sparkle").forEach((sparkle) => sparkle.remove());
+            }
+        });
+    </script>
     
 
     
