@@ -47,7 +47,7 @@
         }
         
         .social-links a:hover {
-            transform: scale(1.2);
+           
             color: #a68eff;
         }
         
@@ -69,8 +69,9 @@
         }
         
         .social-links15 a:hover {
-            transform: scale(1.2);
+            transform: scale(0.70);
             color: black;
+            border: none;
             
         }
         
@@ -451,8 +452,9 @@
         }
         
         .social-links1 a:hover {
-            transform: scale(1.2);
+            transform: scale(0.70);
             color: #a68eff;
+            border: none;
         }
         
         .sec-box {
@@ -801,7 +803,8 @@
         }
         
         .social-links100 a:hover {
-            transform: scale(1.2);
+            transform: scale(0.70);
+            border: none;
             color: black;
             
         }
@@ -1155,7 +1158,7 @@
 }
 
 .social-links30 a:hover {
-    transform: scale(1.2);
+    transform: scale(0.70);
     background: #145dbf;
 
 }
@@ -1187,6 +1190,7 @@
 .imgbox_about a:hover {
     background: rgba(0, 0, 0, 0.8);
     text-decoration: underline;
+    
     transform: scale(1.1);
 }
 
