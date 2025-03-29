@@ -148,7 +148,7 @@
             }
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 524px) {
             .myFour {
                 grid-template-columns: 1fr;
             }
@@ -582,7 +582,7 @@
             margin-left: 10px;
             font-size: 20px;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 524px) {
             .content {
                 grid-template-columns: repeat(1, 1fr);
                 width: 500px;
@@ -851,6 +851,20 @@
     align-items: center;
 }
 
+.conBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
 .imgbox_about img {
     width: 100px;
     height: 100px;
@@ -924,7 +938,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 524px) {
     .about-sec-one {
         grid-template-columns: 1fr;
     }
@@ -967,6 +981,8 @@
                 }
                 
 
+
+                
 
                     /**PROJECTS//*/
     /* Hero Section */
@@ -1019,17 +1035,7 @@
     padding: 20px;
 }
 
-.conBox {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .imgbox_about img {
     width: 100px;
@@ -1084,7 +1090,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 524px) {
     .hero218 {
         height: auto;
         padding: 50px 20px;
